@@ -1,0 +1,121 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+section{
+    height:500px;
+    padding-top: 100px;
+}
+h1{
+    font-size: 50px;
+}
+h2{color:dimgray;}
+p{
+    color:dimgray;
+}
+.orange-highlite{
+    color:orange;
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:80%;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;   
+}
+button{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10%;
+}
+.link-btn{
+    text-decoration: none;
+    color:floralwhite;
+    font-weight: bold;
+}
+.contact-area{
+    background-image: url("images/bgimg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.right-contact{
+    margin-top: 5%;
+}
+.right-contact p{line-height:8mm;}
+#person{
+    width: 315px;
+}
+.my-recipe{
+    text-align: center;
+    line-height:8mm;
+    padding: 35px;
+}
+.recipies-area{background:#E3E3E3 !important;}
+.single-recipie{
+    width:25%;
+    height: 51%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+    float:left;
+    margin-left: 4%;
+    padding:5px 20px;
+    margin-bottom: 50px;
+    
+}
+.single-recipie img{
+    padding-top: 5%;
+    width: 100%;
+    height: 263px;
+}
+form{
+    border:4px solid #f1f1f1;
+}
+.container{
+    padding: 12px;
+    background-color: #f1f1f1;
+}
+/* style the input elements*/
+input[type=text], input[type=submit], input[type=email]{
+    width:100%;
+    padding:12px;
+    margin:8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+/*checkbox*/
+input[type]{margin-top:15px;}
+/*style the submit button*/
+input[type=submit]{
+    background-color: tomato;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer {
+    bottom:0;
+    padding:10px;
+    width:100%;
+    height: 100px;
+    background: #000;
+    color: white;
+    text-align: center;
+    
+        
+}
+.food{
+    color:orange;
+}
